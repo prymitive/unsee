@@ -28,7 +28,7 @@
     "testURL": "http://localhost"
   },
   "dependencies": {
-    "bootstrap": "^3.3.7",
+    "bootstrap": "^4.1.2",
     "bootstrap-select": "^1.12.4",
     "bootstrap-switch": "^3.3.4",
     "bootstrap-tagsinput": "git+https://github.com/bootstrap-tagsinput/bootstrap-tagsinput.git#41fe4aa2201c4af4cfc4293fa3fc8260ad60bf35",
