@@ -66,6 +66,7 @@ const SilenceMatch = observer(
                 type="button"
                 className="btn btn-outline-danger"
                 onClick={onDelete}
+                data-tooltip="Remove this rule"
               >
                 <FontAwesomeIcon icon={faTrash} />
               </button>

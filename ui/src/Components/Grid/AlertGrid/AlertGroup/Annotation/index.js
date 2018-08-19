@@ -63,7 +63,11 @@ const RenderNonLinkAnnotation = inject("alertStore")(
 
         if (!this.toggle.visible) {
           return (
-            <div className={className} onClick={this.toggle.show}>
+            <div
+              className={className}
+              onClick={this.toggle.show}
+              data-tooltip="Expand annotation"
+            >
               <FontAwesomeIcon icon={faSearchPlus} className="mr-1" />
               {name}
             </div>
@@ -71,7 +75,12 @@ const RenderNonLinkAnnotation = inject("alertStore")(
         }
 
         return (
-          <div key={name} className={className} onClick={this.toggle.hide}>
+          <div
+            key={name}
+            className={className}
+            onClick={this.toggle.hide}
+            data-tooltip="Hide annotation"
+          >
             <FontAwesomeIcon icon={faSearchMinus} className="mr-1" />
             <span className="text-muted">{name}: </span>
             <Linkify
