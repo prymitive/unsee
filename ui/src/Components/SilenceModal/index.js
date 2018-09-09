@@ -40,6 +40,7 @@ const SilenceModal = observer(
             <a
               className="nav-link cursor-pointer"
               onClick={silenceFormStore.toggle.toggle}
+              data-tooltip="Add new silence"
             >
               <FontAwesomeIcon icon={faBellSlash} />
             </a>
